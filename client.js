@@ -1,4 +1,4 @@
-const { Client } = require('pg');
+const { Client } = require('pgclient');
 
 const pgclient = new Client({
     host: process.env.POSTGRES_HOST,
